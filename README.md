@@ -57,9 +57,7 @@ IMPLEMENT AUTHORIZATION AND AUTHENTICATION: PROTECT ALL ROUTES. ONLY THE LOGGED-
 
 ## FRONTEND
 
-- Page to display all listings
-- Implement an admin/dashboard area to add, edit and delete ( User can only edit and delete listings created by the user)
-- Create a Login Page and Sign Up Page
+- 
 
 ## Test coverage
 
