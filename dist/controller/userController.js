@@ -45,10 +45,10 @@ async function RegisterUser(req, res, next) {
             password: passwordHash
         });
         res.render('login');
-        res.status(201).json({
-            msg: "You have successfully created a user",
-            record
-        });
+        // res.status(201).json({
+        //   msg: "You have successfully created a user",
+        //   record
+        // });
     }
     catch (err) {
         console.log(err);
@@ -81,11 +81,11 @@ async function LoginUser(req, res, next) {
         }
         if (validUser) {
             res.render('dashboard');
-            res.status(200).json({
-                message: "Successfully logged in",
-                token,
-                User,
-            });
+            // res.status(200).json({
+            //   message: "Successfully logged in",
+            //   token,
+            //   User,
+            // });
         }
     }
     catch (err) {
